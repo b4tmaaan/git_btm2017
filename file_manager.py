@@ -19,3 +19,6 @@ def get_transactions():
 
 def bla():
     print("lalalalalalala")
+
+if __name__ == '__main__'
+    bla()
