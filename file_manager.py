@@ -16,3 +16,6 @@ def get_clients():
 
 def get_transactions():
     pass
+
+def bla():
+    print("lalalalalalala")
