@@ -10,7 +10,7 @@ def new_client():
         print("Client added !")
     else:
         print("Client already exist !")
-    
+
 def new_transaction():
     client_list = fM.get_clients()
     print(client_list)
@@ -21,7 +21,7 @@ def new_transaction():
         return
     amount = float(input("How much ?: "))
     fM.add_transaction(debtor,creditor,amount)
-    
+
 def look_credit():
     client_list = fM.get_clients()
     print(client_list)
